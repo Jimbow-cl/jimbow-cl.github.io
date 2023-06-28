@@ -1,7 +1,7 @@
 ---
 title: Portfolio
 layout: landing
-description: 'Ci-dessous les differents projets créé '
+description: 'Projets'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---

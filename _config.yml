@@ -1,16 +1,16 @@
 # site settings
-title: Jimbow-cl GitHub
-subtitle: personnal gitHub
+title: Jimbow-cl 
+subtitle: GitHub
 email: cart-lamy.jimmy@live.fr
-description: Future Portfolio de Jimbow-cl. En construction
+description: Portfolio de Jimbow-cl. En construction
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://github.com/Jimbow-cl
 author: Jimmy Cart-Lamy
 street_address: 
 city: Nice
 state: FR
-zip_code: 06000
-country: 
+zip_code: 
+country: France
 phone: 
 
 # homepage tiles
