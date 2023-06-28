@@ -3,7 +3,7 @@ title: Jimbow-cl GitHub
 subtitle: personnal gitHub
 email: cart-lamy.jimmy@live.fr
 description: Future Portfolio de Jimbow-cl. En construction
-baseurl: "/jimbow-cl.github.io/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: https://github.com/Jimbow-cl
 author: Jimmy Cart-Lamy
 street_address: 
