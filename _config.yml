@@ -2,15 +2,15 @@
 title: Jimbow-cl 
 subtitle: GitHub
 email: cart-lamy.jimmy@live.fr
-description: Portfolio de Jimbow-cl. En construction
+description: C'est ici que vous trouverez les explications de mes différents projets Git
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://jimbow-cl.github.io
 author: Jimmy Cart-Lamy
 street_address: 
-city: Nice
-state: FR
+city: 
+state: 
 zip_code: 
-country: France
+country: 
 phone: 
 
 # homepage tiles

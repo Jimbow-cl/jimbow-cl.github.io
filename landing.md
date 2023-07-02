@@ -1,8 +1,8 @@
 ---
-title: Portfolio
+title: Projets
 layout: landing
-description: 'Projets'
-image: assets/images/pic07.jpg
+description: 'Portfolio'
+image: assets/images/banner.jpg
 nav-menu: true
 ---
 
@@ -13,75 +13,184 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Sed amet aliquam</h2>
+			<h2>Mes Projets</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+		<p>En tant qu'étudiant en développement web, j'ai entrepris plusieurs projets pour acquérir des compétences en PHP, JavaScript  HTML/CSS ainsi que  des framework comme Laravel, Réact. Ces langages de programmation sont essentiels pour créer des sites web dynamiques et interactifs. Mon objectif est de continuer à développer mes compétences et d'explorer de nouvelles technologies afin de créer des expériences en ligne convaincantes et intuitives. </p>
 	</div>
 </section>
 
 <!-- Two -->
 <section id="two" class="spotlights">
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
-		</a>
+	<section >
+		<div class="box alt">
+				<div class="row 50% uniform">
+					<div class="12u"><span class="image fit"><img src="assets/images/cbnc/pic01.jpg" alt="" /></span></div>
+					<!-- Break -->
+					<div class="12u"><span class="image fit"><img src="assets/images/cbnc/pic02.jpg" alt="" /></span></div>
+					<div class="6u"><span class="image fit"><img src="assets/images/cbnc/pic03.jpg" alt="" /></span></div>
+					<div class="6u"><span class="image fit"><img src="assets/images/cbnc/pic04.jpg" alt="" /></span></div>
+					<div class="12u"><span class="image fit"><img src="assets/images/cbnc/pic05.jpg" alt="" /></span></div>
+				</div>
+		</div>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Orci maecenas</h3>
+					<h3>Close But No Car</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<blockquote>L'objectif de ce de projet est de développer un site de vente aux enchères de voitures d'occasions en PHP avec MySQL en binôme. Inscription, Création d'annonce, Liaison de Table, Modification du profil, Possibilité d'enchèrire sur d'autres annonces etc... </blockquote>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li>
+						<a href="https://github.com/heloisebaillet/CloseButNoCar" class="button">Lien GitHub 
+							<span>
+								<img style="height:20px;width:20px;" src="assets/images/icons/php.png" alt="" />
+							</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section >
+		<div class="box alt">
+				<div class="row 50% uniform">
+					<div class="12u"><span class="image fit"><img src="assets/images/ecommerce/pic01.jpg" alt="" /></span></div>
+					<!-- Break -->
+					<div class="12u"><span class="image fit"><img src="assets/images/ecommerce/pic02.jpg" alt="" /></span></div>
+				</div>
+		</div>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>E-commerce</h3>
+				</header>
+				<blockquote>L'objectif de ce de projet est de développer un site de E-commerce en PHP avec l'utilisation de namespace, de classes, d'objets, méthodes statiques  .</blockquote>
+				<ul class="actions">
+					<li>
+						<a href="https://github.com/Jimbow-cl/Ecommerce" class="button">Lien GitHub 
+							<span>
+								<img style="height:20px;width:20px;" src="assets/images/icons/php.png" alt="" />
+							</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section >
+		<div class="box alt">
+				<div class="row 50% uniform">
+					<div class="12u"><span class="image fit"><img src="assets/images/guichet/pic01.jpg" alt="" /></span></div>
+					<!-- Break -->
+					<div class="12u"><span class="image fit"><img src="assets/images/guichet/pic02.jpg" alt="" /></span></div>
+				</div>
+			</div>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Le guichet</h3>
+				</header>
+				<blockquote>L'objectif de ce de projet est de développer un site de vente de place de Cinéma et de Théatre, en PHP. Le 	site est donc l'IHM du vendeur. Verification de l'âge du client,résumé des films, génération de QR code, d'ID unique
+				</blockquote>
+				<ul class="actions">
+					<li>
+						<a href="https://github.com/Jimbow-cl/Guichet" class="button">Lien GitHub 
+							<span>
+								<img style="height:20px;width:20px;" src="assets/images/icons/php.png" alt="" />
+							</span>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
-		</a>
+		<div class="box alt">
+				<div class="row 50% uniform">
+					<div class="12u"><span class="image fit"><img src="assets/images/blhook/pic01.jpg" alt="" /></span></div>
+					<!-- Break -->
+					<div class="12u"><span class="image fit"><img src="assets/images/blhook/pic04.jpg" alt="" /></span></div>
+				</div>
+		</div>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Rhoncus magna</h3>
+					<h3>The Blhook</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<blockquote>The Blhook pour "Book" "Blog" et "Hook". Projet d'un mini réseau social utilisant Javascript avec le Framework Réact, ainsi que plusieurs API Rest. </blockquote>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li>
+						<a href="https://github.com/Jimbow-cl/Blhook" class="button">Lien GitHub 
+							<span>
+								<img style="height:20px;width:20px;" src="assets/images/icons/JavaScript-logo.png" alt="" />
+							</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+		<section>
+			<div class="box alt">
+				<div class="row 50% uniform">
+					<div class="12u"><span class="image fit"><img src="assets/images/lcdlp/pic02.jpg" alt="" /></span></div>
+					<!-- Break -->
+					<div class="12u"><span class="image fit"><img src="assets/images/lcdlp/pic03.jpg" alt="" /></span></div>
+				</div>
+			</div>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Le café de la Place</h3>
+				</header>
+				<blockquote>Création d’un site en équipe utilisant Javascript Vanilla. 
+				Le but étant de créer un module de gestion de stock à la fois pour le gestionnaire et pour un utilisateur classique.
+				</blockquote>
+				<ul class="actions">
+					<li>
+						<a href="https://github.com/Jimbow-cl/cafe-de-la-place" class="button">Lien GitHub 
+							<span>
+								<img style="height:20px;width:20px;" src="assets/images/icons/JavaScript-logo.png" alt="" />
+							</span>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
-		</a>
+			<div class="box alt">
+				<div class="row 50% uniform">
+					<!-- Break -->
+					<div class="6u"><span class="image fit"><img src="assets/images/aventurew/pic01.jpg" alt="" /></span></div>
+					<div class="6u"><span class="image fit"><img src="assets/images/aventurew/pic02.jpg" alt="" /></span></div>
+					<!-- Break -->
+					<div class="12u"><span class="image fit"><img src="assets/images/aventurew/pic04.jpg" alt="" /></span></div>
+				</div>
+			</div>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Sed nunc ligula</h3>
+					<h3>Adventure Wind</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<blockquote>Création d’un Projet HTML / CSS en respectant une maquette imposée par le client. Deux projets, un en Bootstrap, un en Flex</blockquote>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li>
+						<a href="https://github.com/Jimbow-cl/AdventureWind-Bootstrap" class="button">GitHub Bootsrap 
+							<span>
+								<img style="height:20px;width:20px;" src="assets/images/icons/html.jpg" alt="" />
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/Jimbow-cl/AdventureWind-Bootstrap" class="button">Lien GitHub Flex 
+							<span>
+								<img style="height:20px;width:20px;" src="assets/images/icons/html.jpg" alt="" />
+							</span>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>
 	</section>
 </section>
-
-<!-- Three -->
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Massa libero</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
-		</ul>
-	</div>
-</section>
-
 </div>
