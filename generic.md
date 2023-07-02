@@ -65,6 +65,7 @@ function generateMailToLink(event) {
   }
 
   window.location.href = mailtoLink;
+  document.location.href="/";
 }
 </script>
 

@@ -4,6 +4,15 @@
     {% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" %}
 {% endif %}
 <section id="one" class="tiles">
+  <article>
+    <span class="image">
+      <img src="/assets/github.jpg"  />
+    </span>
+    <header class="major">
+      <h3><a href="https://github.com/Jimbow-cl" class="link">Lien GitHub</a></h3>
+      <p>Accès à https://github.com/Jimbow-cl</p>
+    </header>
+  </article>
   {% for tile in tiles limit:site.tiles-count %}
   <article>
     <span class="image">
