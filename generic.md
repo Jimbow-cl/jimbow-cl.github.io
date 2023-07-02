@@ -60,7 +60,12 @@ function generateMailToLink(event) {
     "?subject=" + encodeURIComponent(subject) +
     "&body=" + encodeURIComponent(body);
 
+  if (copy == "Oui") {
+    mailtoLink += "&cc=" + encodeURIComponent(email);
+  }
+
   window.location.href = mailtoLink;
 }
 </script>
+
 
