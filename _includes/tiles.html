@@ -4,16 +4,7 @@
     {% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" %}
 {% endif %}
 <section id="one" class="tiles">
-  <article>
-    <span class="image">
-      <img src="/assets/github.jpg"  />
-    </span>
-    <header class="major">
-      <h3><a href="https://github.com/Jimbow-cl" class="link">Lien GitHub</a></h3>
-      <p>Accès à https://github.com/Jimbow-cl</p>
-    </header>
-  </article>
-  {% for tile in tiles limit:site.tiles-count %}
+{% for tile in tiles limit:site.tiles-count %}
   <article>
     <span class="image">
       <img src="{{ tile.image }}" alt="{{ tile.title }}" />
@@ -24,4 +15,21 @@
     </header>
   </article>
   {% endfor %}
+  <article>
+    <span class="image">
+      <img src="/assets/github.jpg"  />
+    </span>
+    <header class="major">
+      <h3><a href="https://github.com/Jimbow-cl" class="link">Lien GitHub</a></h3>
+      <p>Accès à https://github.com/Jimbow-cl</p>
+    </header>
+  </article>
+  <article>
+    <span class="image">
+      <img src="/assets/ink.jpg"  />
+    </span>
+    <header class="major">
+      <h3><a href="www.linkedin.com/in/jimmy-cart-lamy" class="link">Linkedin</a></h3>
+    </header>
+  </article>
 </section>
