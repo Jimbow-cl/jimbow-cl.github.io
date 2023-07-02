@@ -8,7 +8,7 @@ nav-menu: true
 
 <!-- Content -->
 <h2 id="content">Formulaire de contact</h2>
-<p>Si vous souhaitez échanger avec moi, je vous propose ce petit formulaire de contact,facilitant notre premier échange: </p>
+<p>Si vous souhaitez échanger avec moi, je vous propose ce petit formulaire de contact, facilitant notre premier échange : </p>
 
 <form method="post" action="#">
   <div class="row uniform">
