@@ -56,7 +56,7 @@ function generateMailToLink(event) {
   body += "Recevoir une copie : " + copy + "\n\n";
   body += "Message :\n" + message;
 
-  var mailtoLink = "cart-lamy.jimmy@live.fr" +
+  var mailtoLink = "mailto:cart-lamy.jimmy@live.fr" +
     "?subject=" + encodeURIComponent(subject) +
     "&body=" + encodeURIComponent(body);
 
