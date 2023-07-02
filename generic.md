@@ -1,13 +1,40 @@
 ---
 layout: post
-title: Generic
+title: Contact
 description: Lorem ipsum dolor est
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
+<!-- Content -->
+<h2 id="content">Formulaire de contact</h2>
+<p>Si vous souhaitez échanger avec moi, je vous propose ce petit formulaire de contact,facilitant notre premier échange: </p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+<form method="post" action="assets/php/envoyer_email.php">
+	<div class="row uniform">
+		<div class="4u 12u$(xsmall)">
+			<input type="text" name="lastname" id="lastname" value="" placeholder="Nom" />
+		</div>
+        <div class="3u 12u$(xsmall)">
+			<input type="text" name="firstname" id="firstname" value="" placeholder="Prénom" />
+		</div>
+		<div class="5u$ 12u$(xsmall)">
+			<input type="email" name="email" id="email" value="" placeholder="Email" />
+		</div>
+		<!-- Break -->
+		<div class="6u 12u$(small)">
+			<input type="checkbox" id="copy" name="copy">
+			<label for="copy">Recevoir une copie</label>
+		</div>
+		<!-- Break -->
+		<div class="12u$">
+			<textarea name="message" id="message" placeholder="Insérer ici votre message" rows="6"></textarea>
+		</div>
+		<!-- Break -->
+		<div class="12u$">
+			<ul class="actions">
+				<li><input type="submit" value="Envoyer" class="special" /></li>
+			</ul>
+		</div>
+	</div>
+</form>
