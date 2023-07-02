@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Accueil
-landing-title: 'Hi, my name is Jimmy'
+landing-title: ' &lth1&gt Hello World!, my name is Jimmy&lth1&gt'
 description: null
 image: null
 author: null
