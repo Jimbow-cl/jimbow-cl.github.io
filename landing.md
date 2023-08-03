@@ -1,7 +1,7 @@
 ---
 title: Projets
 layout: landing
-description: 'Portfolio'
+description: "Portfolio"
 image: assets/images/banner.jpg
 nav-menu: true
 ---
@@ -20,7 +20,71 @@ nav-menu: true
 </section>
 
 <!-- Two -->
+
 <section id="two" class="spotlights">
+<section >
+		<div class="box alt">
+				<div class="row 50% uniform">
+					<div class="12u"><span class="image fit"><img src="assets/images/renegade/accueil 1.jpg" alt="" /></span></div>
+					<div class="6u"><span class="image fit"><img src="assets/images/renegade/battle3.jpg" alt="" /></span></div>
+					<div class="6u"><span class="image fit"><img src="assets/images/renegade/edit.jpg" alt="" /></span></div>
+					<div class="12u"><span class="image fit"><img src="assets/images/renegade/extend.jpg" alt="" /></span></div>
+				</div>
+		</div>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Renegade Salvation</h3>
+				</header>
+				<blockquote>Avant projet Final du titre Pro, en utilisant PHP, Javascript, Mysql, Frameworks laravel et React. Utilisation de Stripe également.
+				Le projet était de creer un jeu MMORPG de bataille de vaisseaux entre système galactique.
+				</blockquote>
+				<ul class="actions">
+					<li>
+						<a href="https://github.com/Jimbow-cl/RENEGADE_SALVATION_2938_front" class="button">Lien GitHub Front
+							<span>
+								<img style="height:20px;width:20px;" src="assets/images/icons/JavaScript-logo.png" alt="" />
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/Jimbow-cl/RENEGADE_SALVATION_2938_back" class="button">Lien GitHub Back
+							<span>
+								<img style="height:20px;width:20px;" src="assets/images/icons/php.png" alt="" />
+							</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+</section>
+<section >
+		<div class="box alt">
+				<div class="row 50% uniform">
+					<div class="12u"><span class="image fit"><img src="assets/images/webwoof/pic01.jpg" alt="" /></span></div>
+					<!-- Break -->
+					<div class="12u"><span class="image fit"><img src="assets/images/webwoof/pic02.jpg" alt="" /></span></div>
+				</div>
+		</div>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Web-Woof</h3>
+				</header>
+				<blockquote>L'objectif de ce de projet est de développer un blog avec posts, commentaires, likes, users, tout en utilisant le modèle MVC = Laravel. Les images sont stockées et détruit directement sur le serveur.
+				Il est possible de créer la Base Mysql, via une migration</blockquote>
+				<ul class="actions">
+					<li>
+						<a href="https://github.com/Slam85/web_woof" class="button">Lien GitHub 
+							<span>
+								<img style="height:20px;width:20px;" src="assets/images/icons/php.png" alt="" />
+							</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+</section>
 	<section >
 		<div class="box alt">
 				<div class="row 50% uniform">
@@ -182,7 +246,7 @@ nav-menu: true
 						</a>
 					</li>
 					<li>
-						<a href="https://github.com/Jimbow-cl/AdventureWind-Bootstrap" class="button">Lien GitHub Flex 
+						<a href="https://github.com/Jimbow-cl/AdventureWind-Flex-" class="button">Lien GitHub Flex 
 							<span>
 								<img style="height:20px;width:20px;" src="assets/images/icons/html.jpg" alt="" />
 							</span>
